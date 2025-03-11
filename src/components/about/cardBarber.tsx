@@ -15,7 +15,7 @@ export default function CardBarber({ name, image, description }: CardBarberProps
                 <div className="p-5">
                     <div className="font-bold text-white text-xl mb-2">{name}</div>
                     <p className="text-gray-300 text-base">
-                        "{description}"
+                        &quot;{description}&quot;
                     </p>
                 </div>
             </div>
