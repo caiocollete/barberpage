@@ -4,7 +4,7 @@ import { ArrowLeft, ArrowRight } from "@deemlol/next-icons";
 import { useState } from "react";
 import Image from "next/image";
 
-export default function Carrousel({ images }: { images: string[] }) {
+export default function Carrousel({ images, width, height }: { images: string[], width: number, height: number }) {
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const nextImage = () => {
@@ -21,8 +21,8 @@ export default function Carrousel({ images }: { images: string[] }) {
                 <Image 
                     src={images[currentIndex]} 
                     alt={`Imagem ${currentIndex + 1}`} 
-                    width={500} 
-                    height={400} 
+                    width={width} 
+                    height={height} 
                     className="max-h-full max-w-full object-contain rounded-lg"
                 />
             </div>

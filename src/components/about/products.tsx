@@ -30,7 +30,7 @@ export default function Products() {
           {/* Imagem do produto */}
           <div className="flex justify-center items-center">
             <ScrollAnimation direction="right" className="flex justify-center items-center">
-                <Carrousel images={["/assets/donalcidesBeneficios.jpg", "/assets/donalcidesLemon.jpg"]}/>
+                <Carrousel images={["/assets/donalcidesBeneficios.jpg", "/assets/donalcidesLemon.jpg"]} width={500} height={400}/>
             </ScrollAnimation>
           </div>
         </div>

@@ -9,10 +9,10 @@ export default function RelaxEnv() {
             <h2 className="text-4xl font-bold text-center mb-12 text-white">Ambiente relaxante</h2>
           </ScrollAnimation>
   
-            {/* Imagem do produto */}
+            {/* Imagem do ambiente da barbearia */}
             <div className="flex justify-center items-center">
               <ScrollAnimation direction="right" className="flex justify-center items-center">
-                  <Carrousel images={["/assets/heroBg.jpg", "/assets/donalcidesLemon.jpg"]}/>
+                  <Carrousel images={["/assets/barbearia1.jpg", "/assets/barbearia2.jpg"]} width={1000} height={900}/>
               </ScrollAnimation>
             </div>
         </div>
