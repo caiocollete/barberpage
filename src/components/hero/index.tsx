@@ -7,11 +7,11 @@ export default function Hero() {
             <HEADER/>
             <div className="flex flex-col justify-start h-screen mx-10 my-30">
                 <ScrollAnimation direction="down" delay={0.2}>
-                    <h1 className="text-6xl"><strong>BarberShop</strong></h1>
+                    <h1 className="text-6xl"><strong>Barbearia</strong></h1>
                 </ScrollAnimation>
                 
                 <ScrollAnimation direction="left" delay={0.4}>
-                    <h2 className="text-3xl mt-4">Expert Barbers and haircuts</h2>
+                    <h2 className="text-3xl mt-4">Barbeiros e cortes de cabelo especializados</h2>
                 </ScrollAnimation>
                 
                 <ScrollAnimation direction="up" delay={0.6}>

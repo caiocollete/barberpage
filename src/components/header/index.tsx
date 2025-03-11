@@ -14,10 +14,10 @@ export default function Header() {
       {/* Menu desktop */}
       <div className="hidden md:flex gap-6 text-white font-medium items-center">
         <a href="./" className="cursor-pointer hover:text-gray-500">Home</a>
-        <a href="#about" className="cursor-pointer hover:text-gray-500">About</a>
-        <a href="#contact" className="cursor-pointer hover:text-gray-500">Contact</a>
+        <a href="#about" className="cursor-pointer hover:text-gray-500">Sobre</a>
+        <a href="#contact" className="cursor-pointer hover:text-gray-500">Contatos</a>
         <button className="bg-[#977656] hover:bg-[#977756b1] text-white font-bold py-2 px-4 rounded">
-          Schedule
+          Agende um horário
         </button>
       </div>
 
@@ -32,11 +32,11 @@ export default function Header() {
       {/* Menu mobile */}
       {menuOpen && (
         <div className="absolute top-16 right-0 w-full  flex flex-col items-center py-4 md:hidden">
-          <a href="./" className="py-2 text-white hover:text-gray-500">Home</a>
-          <a href="#about" className="py-2 text-white hover:text-gray-500">About</a>
-          <a href="#contact" className="py-2 text-white hover:text-gray-500">Contact</a>
+          <a href="./" className="p-2 m-2 hover:bg-gray-300 rounded text-white hover:text-gray-500">Home</a>
+          <a href="#about" className="p-2 m-2 hover:bg-gray-300 rounded text-white hover:text-gray-500">Sobre</a>
+          <a href="#contact" className="p-2 m-2 hover:bg-gray-300 rounded text-white hover:text-gray-500">Contatos</a>
           <button className="bg-[#977656] hover:bg-[#977756b1] text-white font-bold py-2 px-4 rounded mt-2">
-            Schedule
+            Agende um horário
           </button>
         </div>
       )}

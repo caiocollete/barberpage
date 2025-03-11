@@ -5,7 +5,7 @@ export default function TopHeader() {
     <div style={{ backgroundColor: "#0d0d0d" }} className="flex justify-between items-center text-white p-4 ">
       <div className="mx-6">
         <p className="text-xs">
-          <strong style={{ color: "#977656" }}>WE ARE OPEN</strong> 7 DAYS ON WEEK
+          <strong style={{ color: "#977656" }}>ESTAMOS ABERTOS</strong> 7 DIAS NA SEMANA
         </p>
       </div>
 
@@ -16,7 +16,7 @@ export default function TopHeader() {
         </a>
         <a href="https://wa.me/5518991436385" className="flex items-center gap-2">
           <Phone size={16} color="#977656" />
-          <p className="text-xs">+55 (18) 991436385</p>
+          <p className="text-xs">+55 (18) 99143-6385</p>
         </a>
       </div>
     </div>

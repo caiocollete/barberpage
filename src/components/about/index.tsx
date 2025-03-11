@@ -5,30 +5,30 @@ export default function About() {
         <section id="about" className="bg-[#0d0d0d] min-h-screen py-20 px-8">
             <div className="max-w-6xl mx-auto">
                 <ScrollAnimation direction="down">
-                    <h2 className="text-4xl font-bold text-center mb-12">About Our Barbershop</h2>
+                    <h2 className="text-4xl font-bold text-center mb-12">Sobre nossa Barbearia</h2>
                 </ScrollAnimation>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <ScrollAnimation direction="right" delay={0.2}>
                         <div className="space-y-6">
-                            <h3 className="text-2xl font-semibold">Professional Service Since 2000</h3>
+                            <h3 className="text-2xl font-semibold">Deixando homens mais confiantes desde 2000</h3>
                             <p className="text-gray-300">
-                                We pride ourselves on providing the highest quality grooming services in a comfortable
-                                and welcoming environment. Our skilled barbers are dedicated to helping you look and
-                                feel your best.
+                            Temos orgulho em fornecer serviços de corte de cabelo da mais alta qualidade em um ambiente confortável
+                            e acolhedor. Nossos barbeiros qualificados são dedicados a ajudar você a ter uma aparência e
+                            se sentir melhor.
                             </p>
                             <ul className="space-y-3">
                                 <li className="flex items-center">
                                     <span className="mr-2">✓</span>
-                                    Expert Barbers
+                                    Barbeiros experientes
                                 </li>
                                 <li className="flex items-center">
                                     <span className="mr-2">✓</span>
-                                    Premium Products
+                                    Produtos de alta qualidade
                                 </li>
                                 <li className="flex items-center">
                                     <span className="mr-2">✓</span>
-                                    Relaxing Environment
+                                    Ambiente relaxante
                                 </li>
                             </ul>
                         </div>

@@ -6,7 +6,7 @@ export default function Products() {
     <section className="bg-[#0d0d0d] min-h-screen py-20 px-8">
       <div className="max-w-6xl mx-auto">
         <ScrollAnimation direction="down">
-          <h2 className="text-4xl font-bold text-center mb-12 text-white">Premium Products</h2>
+          <h2 className="text-4xl font-bold text-center mb-12 text-white">Produtos de alta qualidade</h2>
         </ScrollAnimation>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
