@@ -1,4 +1,5 @@
 import { ScrollAnimation } from "../scrollanimation/ScrollAnimation";
+import Image from "next/image";
 
 export default function About() {
     return (
@@ -36,10 +37,12 @@ export default function About() {
 
                     <ScrollAnimation direction="left" delay={0.4}>
                         <div className="relative h-[400px] rounded-lg overflow-hidden">
-                            <img
+                            <Image
                                 src="/assets/herobg.jpg"
                                 alt="Barbershop Interior"
                                 className="object-cover w-full h-full"
+                                width={500}
+                                height={300}
                             />
                         </div>
                     </ScrollAnimation>
