@@ -1,5 +1,8 @@
 "use client"
 
+import { ArrowLeft } from "@deemlol/next-icons";
+import { ArrowRight } from "@deemlol/next-icons";
+
 import { useState } from "react";
 
 export default function Carrousel({ images }: { images: string[] }) {
@@ -26,14 +29,14 @@ export default function Carrousel({ images }: { images: string[] }) {
                 onClick={prevImage} 
                 className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white px-3 py-2 rounded-full"
             >
-                ◀
+                <ArrowLeft size={24} color="#FFFFFF" />
             </button>
 
             <button 
                 onClick={nextImage} 
                 className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white px-3 py-2 rounded-full"
             >
-                ▶
+                <ArrowRight size={24} color="#FFFFFF" />
             </button>
         </div>
     );

@@ -20,8 +20,8 @@ export default function Contact() {
           
           <ScrollAnimation direction="left">
             <div className="flex flex-col gap-4">
-                <p>+55 (18) 991436385</p>
-                <p>Prudente de Moraes, 273 - Sala 4 - Centro, Pres. Venceslau - SP, 19400-000</p>
+                <a href="https://wa.me/5518991436385">+55 (18) 991436385</a>
+                <a href="https://www.google.com/maps/place/Prudente+de+Moraes,+273+-+Centro,+Pres.+Venceslau+-+SP,+19400-000/@-21.871732, -51.8441795, 17z/data=!3m1!4b1!4m6!3m5!1s0x9491654a73f4916d:0x585686521b68243f!8m2!3d-21.871732!4d-51.8419908!16s%2Fg%2F11c50y_000">Prudente de Moraes, 273 - Sala 4 - Centro, Pres. Venceslau - SP, 19400-000</a>
             </div>
           </ScrollAnimation>
         </div>
