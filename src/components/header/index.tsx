@@ -9,7 +9,7 @@ export default function Header() {
 
   return (
     <nav className="flex justify-between items-center px-6 py-4">
-      {/* Logo */}
+      {/* Logo da barbearia */}
       <Image src="/assets/Logo.svg" alt="Logo" className="h-12" width={100} height={100} />
 
       {/* Menu desktop */}
