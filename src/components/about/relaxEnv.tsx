@@ -1,0 +1,21 @@
+import { ScrollAnimation } from "../scrollanimation/ScrollAnimation";
+import Carrousel from "../carrousel/carrousel";
+
+export default function RelaxEnv() {
+    return (
+        <section className="bg-[url('/assets/bgOurTeam.jpg')] min-h-screen py-20 px-8">
+        <div className="max-w-6xl mx-auto">
+          <ScrollAnimation direction="down">
+            <h2 className="text-4xl font-bold text-center mb-12 text-white">Relaxing Environment</h2>
+          </ScrollAnimation>
+  
+            {/* Imagem do produto */}
+            <div className="flex justify-center items-center">
+              <ScrollAnimation direction="right" className="flex justify-center items-center">
+                  <Carrousel images={["/assets/heroBg.jpg", "/assets/donalcidesLemon.jpg"]}/>
+              </ScrollAnimation>
+            </div>
+        </div>
+      </section>
+    )
+}
